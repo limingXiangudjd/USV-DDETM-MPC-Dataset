@@ -15,6 +15,10 @@
 > **Code usage restriction**: the private code repository carries NO open-source license and all
 > rights are reserved. Without the author's prior written permission, the code may not be used
 > to publish academic papers or theses, nor for other academic experiments or benchmarks.
+>
+> **代码使用限制（中文）**：上述私有代码仓库未授予任何开源许可证，保留全部权利。
+> **未经作者本人书面许可，不得使用该代码发表学术论文、学位论文或会议文章，
+> 亦不得将其用于其他学术实验、评测或教学；如需引用/复现/扩展，请先邮件获得书面许可。**
 
 ## 1. 数据集内容 / What is included
 
