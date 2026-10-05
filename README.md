@@ -1,8 +1,6 @@
 # USV Parameter-Separated D-DETM-MPC — Experiment Dataset / 实验数据集
 
-> Dataset for: *"A Parameter-Separated Dynamic Event-Triggered Predictive Control Architecture for
-> Unmanned Surface Vehicles: Quantifying the Continuous-to-Discrete Safeguard Loss and Its
-> Reset-Free Recovery"* (Li Mingxiang, Dalian Maritime University)
+> Dataset for: *"A Parameter-Separated Dynamic Event-Triggered MPC for Unmanned Surface Vehicles: Quantifying the Continuous-to-Discrete Safeguard Loss"* (Li Mingxiang, Dalian Maritime University)
 >
 > **DATA ONLY — 本仓库只包含实验数据，不含任何代码。** 实现代码（MATLAB/Simulink 模型与脚本）
 > 在私有仓库 [USV-Gain-Separated-DET-MPC](https://github.com/limingXiangudjd/USV-Gain-Separated-DET-MPC)，
