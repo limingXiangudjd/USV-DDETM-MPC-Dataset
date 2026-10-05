@@ -7,8 +7,14 @@
 > **DATA ONLY — 本仓库只包含实验数据，不含任何代码。** 实现代码（MATLAB/Simulink 模型与脚本）
 > 在私有仓库 [USV-Gain-Separated-DET-MPC](https://github.com/limingXiangudjd/USV-Gain-Separated-DET-MPC)，
 > 查看权限需向作者申请：**limingxiang@dlmu.edu.cn**。
-> **This repository hosts experiment data only.** The implementation code lives in the private
-> repository above; access is granted upon reasonable request to the author.
+> **This repository hosts experiment data only.** The implementation code (MATLAB/Simulink models
+> and scripts) lives in the private repository above. Viewing that code requires the author's
+> authorization (email limingxiang@dlmu.edu.cn with your purpose; access is granted as a
+> repository collaborator).
+>
+> **Code usage restriction**: the private code repository carries NO open-source license and all
+> rights are reserved. Without the author's prior written permission, the code may not be used
+> to publish academic papers or theses, nor for other academic experiments or benchmarks.
 
 ## 1. 数据集内容 / What is included
 
@@ -21,6 +27,13 @@ least **three independent reproduction rounds** — 94 data files in total.
 **跨轮字节级相同**；论文表值经 182 项自动核对全部通过（182/182 PASS）。
 Key scalars are **bit-identical across rounds** (max|Δ| = 0); per-sample CSVs of the Monte-Carlo
 and multi-seed campaigns are byte-identical; 182/182 paper-vs-data checks pass.
+
+**Reproducibility statement / 可复现性声明**: these three rounds were produced by isolated
+MATLAB R2024b sessions on different dates, re-running the same archived scripts and seed
+protocols. The per-group cross-round verification records (19/19 groups, max|Δ| = 0) are listed
+in `README_REPRODUCTION.md`. The experiment source code itself is NOT in this repository — it is
+kept in the private repository above and requires the author's consent to view; reproducing the
+numbers from code therefore also requires that authorization.
 
 ## 2. 文件命名 / Naming convention
 
